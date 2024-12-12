@@ -16,11 +16,12 @@ public class ShoppingCart01 {
 
         String totalPrice = "$" + (price * tax) + price;
 
-        String message1 = custName + "wants to purchase" + quantity +
-                String message2 =
+        String message1 = custName + "wants to purchase" + quantity + "" +itemDesc;
+        String message2 = "The total cost with tax is" + totalPrice;
 
-                System.out.println(message1);
+        System.out.println(message1);
         System.out.println(message2);
+
 
         // Print and run the code
 
